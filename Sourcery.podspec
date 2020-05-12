@@ -16,5 +16,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/merowing_"
 
   s.source       = { :http => "https://raw.githubusercontent.com/till0xff/SourceryBin/master/Sourcery.zip" }
+  s.preserve_paths = '*'
+  s.exclude_files = '**/file.zip'
 
 end
