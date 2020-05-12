@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
                    * Using SourceKit so you can scan your regular code.
                    DESC
 
-  s.homepage     = "https://github.com/krzysztofzablocki/Sourcery"
+  s.homepage     = "https://github.com/till0xff/Sourcery"
   s.license      = 'MIT'
   s.author       = { "Krzysztof Zabłocki" => "krzysztof.zablocki@pixle.pl" }
   s.social_media_url = "https://twitter.com/merowing_"
 
-  s.source       = { :http => "https://raw.githubusercontent.com/till0xff/SourceryBin/master/Sourcery.zip" }
+  s.source       = { :http => "https://media.githubusercontent.com/media/till0xff/SourceryBin/master/Sourcery.zip" }
   s.preserve_paths = '*'
-  s.exclude_files = '**/file.zip'
+  s.exclude_files = '**/*.zip'
 
 end
